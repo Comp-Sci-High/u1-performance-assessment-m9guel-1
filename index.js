@@ -9,12 +9,27 @@ let weworkItems = ["loaner laptop", "whiteboard", "conference room", "couch", "p
 let computerLabItems = ["desktop computers", "monitors", "broken laptop", "mice", "Wi-Fi router", "printer", "power strips", "headphones", "USB drives", "chairs", "desks"];
 let mprItems = ["mirrors", "speakers", "chairs", "portable stereo", "projector", "chairs", "posters"];
 
+weworkItems.shift("loaner laptop")
+weworkItems.push("loaner laptop")
+console.log(weworkItems)
+
+computerLabItems[2] = "fixed laptop"
+console.log(computerLabItems)
+
+console.log(mprItems.length)
+console.log(weworkItems.length)
+console.log(computerLabItems.length)
+let MPR = 7
+let WWI = 10
+let CLI = 11
+let keytest1 = MPR + WWI + CLI
+console.log(keytest1)
 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 3rd Floor
 // Do not modify these objects directly
-let scoreValues = {
+let scoValues = {
     "S": "Self-awareness",
     "C": "Challenge",
     "O": "Organization",
