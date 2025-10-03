@@ -84,21 +84,32 @@ console.log(afterSchoolClubs)
 // 4th Floor
 // Uncomment the code below to begin this task
 
-// let takeCareOfPet = function(snacks, pets) => {
-//     if (Snacks[2] === "hotdogs" && pets > 10) {
-//         return "Raccoon has been appeased"
-//     } else {
-//         return "The raccoon bit you and you died of rabies."
+function testingFor (snacks, pets){
+return "Raccoon has been appeased"
+}
+let takeCareOfPet = testingFor("hotdog", 9)
+    if ("hotdogs" === "hotdogs" && 14 > 10) {
+        console.log("Raccoon has been appeased")
+    } else {
+        console.log ("The raccoon bit you and you died of rabies.")
     
-// }
+}
+
+
+console.log(takeCareOfPet)
+
 
 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 5th Floor
 
+let arraytest = [" "]
 
+function msgTest (message){
+return message
+}
 
-
-
+let test1 = msgTest("Hey")
+console.log(test1)
 // Commit and show us to unlock the next floor's instructions
