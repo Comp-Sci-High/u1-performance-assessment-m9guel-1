@@ -31,10 +31,15 @@ console.log(keytest1)
 // Do not modify these objects directly
 let scoValues = {
     "S": "Self-awareness",
-    "C": "Challenge",
-    "O": "Organization",
+    "C": "C",
+    "O": "O",
     "R": "Resilience"
 }
+
+scoValues.C = "Consistency"
+scoValues.O = "Ownership"
+scoValues["E"] = "Excellence"
+console.log(scoValues)
 
 let afterSchoolClubs = {
     athletic: [
@@ -51,6 +56,7 @@ let afterSchoolClubs = {
             location: "Gymnatorium"
         }
     ],
+    
     social: [
         {
             club: "Gaming Club",
@@ -68,6 +74,11 @@ let afterSchoolClubs = {
 }
 
 
+afterSchoolClubs.athletic[0].club = "British Football Club"
+
+afterSchoolClubs.social[2].location = "Balcony"
+
+console.log(afterSchoolClubs)
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 4th Floor
